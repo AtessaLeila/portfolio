@@ -210,7 +210,7 @@ main {
   margin-left: 100px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 1.5em;
 }
 
@@ -305,8 +305,8 @@ canvas {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 13px;
   display: grid;
   display: block;
@@ -315,9 +315,9 @@ canvas {
 
 .grid {
   display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 150px;
+  grid-gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 130px;
   grid-auto-flow: row dense;
 }
 
@@ -355,7 +355,7 @@ canvas {
 }
 
 .flower:nth-of-type(5){   
-  background-image:url('img/news.jpg');  
+  background-image:url('img/scribble.jpg');  
 }
 
 .flower:nth-of-type(6){   
@@ -367,7 +367,7 @@ canvas {
 }
 
 .flower:nth-of-type(8){ 
-  background-image:url( 'img/scribble.jpg');
+  background-image:url( 'img/wsj.png');
 }
 
 .flower:nth-of-type(9){
